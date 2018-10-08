@@ -1041,7 +1041,7 @@ void pe_sim_step1_no_tag(ProcessingElement* pe_current)
 			pe_current->inbuffer3 = pe_current->bin;
 			pe_current->inbuffer3_v = pe_current->bin_v;
 			//入buffer成功，置ack信号
-			pe_current->ack2in3port = 1;
+			pe_current->ack2in3port = 1; 
 			//清除入口
 			pe_current->bin_v = 0;
 			if (pe_current->config_reg.front()[11] == 2)//from pe

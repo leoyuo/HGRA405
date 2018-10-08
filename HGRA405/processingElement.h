@@ -137,7 +137,7 @@ public:
 	bool isOutBufferFull();
 	void dataIn();
 	void dataOut();
-	void buffer_clear();
+	void buffer_clear(); 
 
 
 private:
